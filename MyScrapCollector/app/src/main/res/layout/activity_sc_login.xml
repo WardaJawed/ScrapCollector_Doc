@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SC_login"
+    android:orientation="vertical"
+    android:background="@drawable/lo"
+
+    >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCRAP COLLECTOR LOGIN"
+        android:textSize="40dp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/heading"/>
+
+    <EditText
+        android:id="@+id/sc_Lname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint=" Your Name"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+        android:inputType="text"
+        android:textColorHint="#3F573F"
+        android:textColor="#3F573F"
+        />
+    <EditText
+        android:id="@+id/sc_Lpass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint=" Your Password"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:textColorHint="#3F573F"
+        android:textColor="#3F573F"
+        />
+
+    <Button
+        android:id="@+id/sc_login"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textColor="#0C0C0C"
+        android:fontFamily="@font/heading"
+
+        android:textSize="35dp"
+        android:background="@drawable/gradient"
+        />
+    <TextView
+        android:id="@+id/sc_Llink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Here?SIGN UP!"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+
+        />
+</LinearLayout>

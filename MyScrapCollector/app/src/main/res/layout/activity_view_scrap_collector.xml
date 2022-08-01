@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewScrapCollector"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:background="@color/black"
+    >
+    <ImageView
+        android:id="@+id/scimg"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_bkgreen" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scrap Collectors"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:fontFamily="@font/heading"
+        android:layout_marginTop="15dp"
+
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+
+</LinearLayout>

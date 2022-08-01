@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog"
+    >
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ty"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Pickup request confirmed"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"/>
+    <Button
+        android:id="@+id/b_btn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Back to home"
+        android:textColor="#4CAF50"
+        android:textSize="30dp"
+        android:fontFamily="@font/heading"
+        android:background="@drawable/blackbtn"
+        android:layout_marginBottom="20dp"
+        />
+
+</LinearLayout>

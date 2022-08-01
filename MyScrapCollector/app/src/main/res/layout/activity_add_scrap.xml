@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddScrap"
+    android:orientation="vertical"
+    android:background="@drawable/wall1">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_chevron_left_24" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Scrap "
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/heading"
+        android:layout_marginTop="130dp"
+
+        />
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_baseline_menu_24"
+        android:hint="  Item"
+        android:textColorHint="@color/black"
+        android:textSize="25dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/item_price"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/black"
+        android:hint="  Price"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+        android:inputType="number"
+
+        />
+    <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Submit"
+        android:textColor="#0A0B0A"
+        android:textSize="35dp"
+        android:fontFamily="@font/heading"
+        android:background="@drawable/gradient"
+        />
+</LinearLayout>

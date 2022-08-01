@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_login"
+    android:orientation="vertical"
+    android:background="@drawable/lo">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMIN LOGIN"
+        android:textSize="50dp"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/heading"/>
+
+    <EditText
+        android:id="@+id/ad_lname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint=" Your Name"
+        android:textColor="#3F573F"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+        android:inputType="text"
+        android:textColorHint="#3F573F"
+        />
+    <EditText
+        android:id="@+id/ad_lpass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint=" Your Password"
+        android:textSize="25dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:inputType="textPassword"
+        android:textColorHint="#3F573F"
+        android:textColor="#3F573F"
+        />
+
+    <Button
+        android:id="@+id/btn_admin"
+        android:layout_width="300dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Login"
+        android:textColor="#020202"
+        android:textSize="35dp"
+        android:fontFamily="@font/heading"
+        android:background="@drawable/gradient"
+        />
+</LinearLayout>

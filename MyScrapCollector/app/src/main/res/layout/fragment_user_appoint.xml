@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_appoint"
+    android:orientation="vertical"
+    android:background="@drawable/wall1">
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick up request"
+        android:textSize="36dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/heading"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="for scrap collections"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed"/>
+<!--<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">-->
+
+        <EditText
+            android:id="@+id/ap_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+            android:hint=" Your Name"
+            android:textSize="25dp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/ap_loc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint=" Your Location"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:inputType="text"
+
+            />
+
+        <EditText
+            android:id="@+id/ap_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint=" Your Email"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:inputType="textEmailAddress"
+            />
+        <EditText
+            android:id="@+id/ap_no"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint=" Contact no"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:inputType="number"
+
+            />
+        <EditText
+            android:id="@+id/ap_dateed"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint=" Pick Up Date"
+            android:textSize="25dp"
+            android:drawableLeft="@drawable/ic_baseline_calendar_month_24"/>
+        <!--     <DatePicker
+                android:id="@+id/ap_date"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+               android:datePickerMode="calendar"
+               android:background="@drawable/backgroundcal"/>
+
+               <EditText
+
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:hint=" Timings(12pm-5pm)"
+                    android:textSize="25dp"
+                    android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+                    android:inputType="number"
+                    android:enabled="false"
+                    />
+          <TimePicker
+              android:id="@+id/ap_time"
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"/>
+  -->
+
+        <Button
+            android:id="@+id/ap_btn"
+            android:layout_width="300dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Pick up"
+            android:textColor="#0A0B0A"
+            android:textSize="35dp"
+            android:fontFamily="@font/heading"
+            android:background="@drawable/gradient"
+            />
+
+  <!--  </LinearLayout>
+</ScrollView>-->
+
+
+
+</LinearLayout>

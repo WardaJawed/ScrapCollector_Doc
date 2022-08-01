@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="800dp"
+    tools:context=".user_ratelist"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:background="#000">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rate List "
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:fontFamily="@font/heading"
+        android:layout_margin="15dp"
+
+        />
+
+
+    <TableRow android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Item"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"/>
+
+    </TableRow>
+    <TableRow android:background="#050505" android:padding="15dp">
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+android:src="@drawable/bottle"
+           />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="Plastic"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rs.15/KG "
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </TableRow>
+    <TableRow android:background="#050505" android:padding="15dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/newspaper"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="NewsPaper"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rs.20/KG "
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </TableRow>
+    <TableRow android:background="#050505" android:padding="15dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/books"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="NoteBooks"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rs.35/KG "
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </TableRow>
+    <TableRow android:background="#050505" android:padding="15dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/b"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="Packing Box "
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rs.20/KG "
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </TableRow>
+
+    <TableRow android:background="#050505" android:padding="15dp">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/can"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="22dp"
+            android:text="Aluminum"
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rs.115/KG "
+            android:textSize="22dp"
+            android:fontFamily="sans-serif-medium"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#050505"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/guitar" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="Instrument"
+            android:textSize="22dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="Rs.500/KG "
+            android:textSize="22dp" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
